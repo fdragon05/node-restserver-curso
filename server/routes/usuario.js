@@ -137,7 +137,7 @@ app.get('/usuario', verificarToken, (req, res) => {
     Usuario.findByIdAndUpdate(id, cambiaEstado, {new:true}, (err, usuarioBorrado) =>{
 
       if(err){
-        return res.status(400).json({
+        return res.status(500).json({
           ok: false,
           err
         });
