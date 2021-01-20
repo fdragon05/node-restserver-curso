@@ -82,7 +82,7 @@ app.get('/usuario', verificarToken, (req, res) => {
      });
 
 
-     
+     //prueba
 
     });
   
