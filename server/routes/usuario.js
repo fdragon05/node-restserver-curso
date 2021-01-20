@@ -82,6 +82,8 @@ app.get('/usuario', verificarToken, (req, res) => {
      });
 
 
+     
+
     });
   
   /*   if( body.nombre === undefined){
